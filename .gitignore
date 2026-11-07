@@ -1,0 +1,18 @@
+# 账单数据（个人隐私，永远不要提交）
+账单/**/*.xlsx
+账单/**/*.csv
+!账单/README.md
+
+# 中间产物
+_*.xlsx
+*.stage.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
